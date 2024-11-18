@@ -1,2 +1,0 @@
-# projetofibra
- Treinamento fibra telecab
