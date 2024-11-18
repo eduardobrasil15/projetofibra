@@ -6,6 +6,7 @@
     <title>Treinamento de Fibra</title>
     <link rel="stylesheet" href="style.css" media="all">
     <link rel="stylesheet" href="stylemq.css">
+    
 </head>
 <body>
 
@@ -13,14 +14,14 @@
 
   <section class="comprimento">
       
-    <h1>Treinamento de Fíbra</h1> 
+    <h1>Treinamento de Fibra</h1> 
 
       <h2>Assunto a ser estudado</h2>
       <ul>
-          <li>Típos de conectores</li>
-          <li>Típos de Gbic</li>
+          <li>Tipos de conectores</li>
+          <li>Tipos de Gbic</li>
           <li>Atenuações de splitters</li>
-          <li>Típos de Cabos</li>
+          <li>Tipos de Cabos</li>
       </ul>
       
       <h2>Tipos de conectores</h2>
@@ -31,16 +32,36 @@
       Cor: Os conectores APC são verdes, enquanto os conectores UPC são azuis.
       Desempenho: Os conectores APC têm um desempenho melhor do que os UPC, pois apresentam uma menor perda de retorno. A perda de retorno dos conectores UPC é de cerca de -50 dB, enquanto os conectores APC perdem cerca de -60 dB.
       Custo: Os conectores UPC são mais baratos do que os APC.
-      A escolha entre o conector APC ou UPC depende da aplicação. Para aplicações que exijam mais estabilidade, recomenda-se o conector APC. Para aplicações menos sensíveis, pode-se usar o conector UPC. </p>
+      A escolha entre o conector APC ou UPC depende da aplicação. Para aplicações que exijam mais estabilidade, recomenda-se o conector APC. Para aplicações menos sensíveis, pode-se usar o conector UPC. </p> <br>
       
-      <img id="image1" src="imagens png/Conector PC e APC.png" alt="image/png"> <br>
-      <img src="imagens png/{4B342120-EBB5-4BFB-A339-3065F4164485}.png" alt="image/png">
-      <h2>O que pode e o que não pode ser feito</h2>
-      <img src="imagens png/mistura de conector pc - apc.png" alt="imag/png">
-     
-      <img src="imagens png/tipos de conectores optico.png" alt="">
-      <h2>Módulos SFP - Gbic</h2>
-      <img id="imagegbic" src="imagens png/tipos de SFP 1.jpg" alt="image/png">
+      <picture class="tpequena">
+        <source media="(max-width: 992px)" srcset="imagens/conectorpcapc1.png">
+        <img id="pcapc" src="imagens/Conector PC e APC.png" alt="imagens/png">
+      </picture> <br>
+
+      <picture class="tpequena">
+        <source media="(max-width: 950px)" srcset="imagens/{4B342120-EBB5-4BFB-A339-3065F4164485}1.png">
+        <img id="apc" src="imagens/{4B342120-EBB5-4BFB-A339-3065F4164485}.png" alt="image/png">
+      </picture> <br>
+
+      <picture>
+        <source media="(max-width: 950px)" srcset="imagens png/conectorpceapc.png">
+      </picture><br>
+      
+      <h2 id="oqpode">O que pode e o que não pode ser feito</h2>
+
+      <picture>
+        <source media="(max-width: 950px)" srcset="imagens/mistura-de-conector-pc-apc1.png">
+        <img id="podeenaopode" src="imagens/mistura de conector pc - apc.png" alt="imag/png">
+      </picture> <br>
+      
+      <picture id="conector">
+        <source media="(max-width: 950px)" srcset="imagens/conectores-optico1.png">
+        <img src="imagens/tipos-de-conectores-optico.png" alt="image/png">
+      </picture> <br>
+      
+      <h2>Modulo SFP - Gbic</h2>
+      <img id="imagegbic" src="imagens/tipos-de-SFP-1.jpg" alt="image/png">
       <p>Os GBICs (Gigabit Interface Converter) são transceptores que podem ser classificados por diferentes tipos, de acordo com a distância que podem alcançar:
           SX: Para distâncias de até 550 m, com comprimento de onda de 850 nm
           LX: Para distâncias de até 10 km, com comprimento de onda de 1310 nm
@@ -53,19 +74,55 @@
           Velocidades variadas, como 1 Gbps (Gigabit por segundo)
           Capacidade hot-swappable, que permite instalá-los ou substituí-los sem desligar o dispositivo
           Conectores específicos para o tipo de mídia que estão projetados para conectar </p>
-          <h2>SFP Simplex e Duplex</h2>
-          <img id="sfp" src="imagens png/sfp 2 porta e 1 porta.png"alt="image/png">
+
+          <h2 id="sfph2">SFP Simplex e Duplex</h2>
+          <picture class="tpequena">
+            <source media="(max-width: 950px)" srcset="imagens/sfp-2-porta-e-1-porta1.png">
+            <img id="sfp" src="imagens/sfp-2-porta-e-1-porta.png"alt="image/png">
+          </picture> <br>
       
           <h2>Tabela de potência e Atenuações</h2>
-          <img id="tabela" src="imagens png/tabela de sinais.png" alt="image/png">
+          <img id="tabela" src="imagens/tabela de sinais.png" alt="image/png"> <br>
+
           <h2 id="nomeclatura">Identificação e nomeclatura dos cabo Fibra óptica</h2>
-          <img src="imagens png/nomeclatura cabo fibra.png" alt="image/png">
+          <picture>
+            <source media="(max-width: 950px)" srcset="imagens/nomeclatura-cabo-fibra-1.png">
+            <img  id="idcabo" src="imagens/nomeclatura cabo fibra.png" alt="image/png">
+          </picture>
+
           <h2>Grupos e quantidade de fibras por Cabo óptico</h2>
-          <img src="imagens png/Agrupamentos de fibras por grupo.png" alt="image/png"> <br>
-          <img src="imagens png/Numero de fibras por grupo do cabo de 18 a 36.png" alt="image/png"> <br>
-          <img src="imagens png/Numero de fibras por grupo do cabo de 48 a 144.png" alt="imagepng">
+          <picture class="tpequena">
+            <source media="(max-width: 950px)" srcset="imagens/Agrupamentos-de-fibras-por-grupo1.png">
+            <img id="agrupamentofibras" src="imagens/Agrupamentos de fibras por grupo.png" alt="image/png">
+          </picture> <br>
+          <img id="cabo18a36" src="imagens/Numero de fibras por grupo do cabo de 18 a 36.png" alt="image/png"> <br>
+          <img id="cabo48a144" src="imagens/Numero de fibras por grupo do cabo de 48 a 144.png" alt="imagepng"> <br>
         
-          <img src="imagens png/Direção dos tubos luses.png" alt="">
+          <picture>
+            <source media="(max-width: 950px)" srcset="imagens/piloto-e-direção-1.png">
+            <img id="direcao" src="imagens/piloto-e-direção.png" alt="image/png">
+          </picture> <br>
+
+          <h2 class="tgrande">Topologia de Rede Desbalançeada</h2>
+          <img id="desbalanceada" class="tgrande" src="imagens/Topologia  rede  desbalançeada.png" alt="image/png">
+
+          <h2 class="tgrande">Topologia rede Balançeada</h2>
+          <img id="balanceada" class="tgrande" src="imagens/rede balanceada.png" alt="balanceado/png"> <br>
+
+          
+          <picture>
+            <source media="(max-width: 950px)" srcset="imagens/cores-dos-tubos-loose-1.png">
+            <img class="coresfibra" src="imagens/codigo de cores dos grupos .png" alt="corestuboloose">
+          </picture> <br>
+
+          
+          <picture>
+            <source media="(max-width: 950px)" srcset="imagens/cores-fibra-óptica-1.png">
+            <img class="coresfibra" src="imagens/Codigos de cores de fibras padrao abnt e EIA.png" alt="cores-fibra-optica"></picture> <br>
+
+            <h2 id="tablecolors">Tabela de indentificação de cabos por cores</h2>
+
+            <img id="tabelacorescabos" src="imagens/padrao-coresl-ancamento.png" alt="tabela/img">
   </section>
 
 

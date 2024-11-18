@@ -1,65 +1,80 @@
 @charset "UTF-8";
 
 
-
 @media print {
 
 * {
     margin: 0px;
     padding: 0px;
-
 }
 
-
-
-body {
-   
+body { 
     font-family: Arial, Helvetica, sans-serif;
-    width: 80vw;
     margin: auto;
+}
 
+body > section.comprimento {
+    background-color: none;
+    width: 90vw;
+    margin: auto;
+    text-align: center;
 }
 
 h1 {
     font: bolder 2em arial;
     text-align: center;
     margin: 50px;
-
 }
 
 h2 {
-    
-    font: bolder i.2em arial;
+    font: bolder 1.6em Arial;
     margin: 20px;
-    padding: 10px;
+    width: 1000px;
+    text-align: justify;
+    text-indent: 50px;
 }
 
+h2#oqpode {
+    margin-top: 130px;
+    display: block;
+    margin-bottom: 50px;
+}
+
+h2#sfph2 {
+    margin-top: 120px;
+}
 
 h2#nomeclatura {
-    margin-top: 300px;
+    display: none;
+}
+
+h2#tablecolors{
+    margin-top: 120px;
 }
 
 ul {
-
     margin-left: 80px;
 }
 
 p {
     text-align: justify;
     text-indent: 50px;
-    padding: 10px;
     margin: 10px;
 }
 
-img {
-    padding: 10px;
-    display: block;
-    margin: auto;
-    text-align: center;
+img#apc {
+    margin-bottom: 30px;
 }
 
 img#image1 {
     height: 300px;
+}
+
+img#podeenaopode {
+    height: 400px;
+    margin-top: -30px;
+    width: 600px;
+    margin-bottom: 40px;   
 }
 
 img#imagegbic {
@@ -67,50 +82,57 @@ img#imagegbic {
 }
 
 img#sfp {
-    height: 300px;
+    height: 400px;
+}
+
+img#cabo18a36 {
+    height: 370px;
+    margin: auto;
+}
+
+img#idcabo { 
+    margin: 30px;
+}
+
+img#cabo48a144 {
+    height: 370px;
+}
+
+img#tabelacorescabos {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    height: 600px;
 }
 
 img#tabela {
-    height: 520px;
+    text-align: center;
+    margin: auto;
+    height: 700px;
 }
+
 
 footer {
     text-decoration: none;
     text-align: center;
-    margin-top: 600px;
+    margin-top: 680px;
     margin-bottom: 60px;
 }
 
 footer > h3#inst {
     display: none;
-
 }
     
 }
 
-@media screen and (min-width: 992px) /*and (max-width: 1200px)*/ {
+@media screen and (min-width: 950px) /*and (max-width: 1200px)*/ {
 
     * {
         padding: 0px;
         margin: 0px;
     }
     
-    body {
-        font-family: Arial, Helvetica, sans-serif;
-        background-color: rgb(19, 122, 240);
-        margin-top: 20px;
-    }
-    
-    body > section.comprimento {
-        background-color: white;
-        width: 70vw;
-        margin: auto;
-        border-radius: 15px;
-        padding-left: 20px;
-    }
-    
     ul {
-        padding-left: 150px;
+        padding-left: 180px;
     } 
     
     h1 {
@@ -124,11 +146,11 @@ footer > h3#inst {
     }
     
     h2 {
-        font-family: Arial, Helvetica, sans-serif;
+        font: bolder 1.5em Arial;
         padding: 5px;
         margin: auto;
-        margin-bottom: 30px;
-        margin-top: 30px;
+        margin-bottom: 40px;
+        margin-top: 40px;
         border-radius: 20px;
         background-color: lightskyblue;
         width: 350px;
@@ -145,19 +167,30 @@ footer > h3#inst {
         margin-right: 50px;
     }
     
-    img {
-        display: block;
-        margin: auto;
-        text-align: center;
-        margin-bottom: 40px;
+    #podeenaopode {
+        margin-top: 0px;
+        margin-bottom: -100px;
     }
+
+    img#tabela {
+        text-align: center;
+        margin: auto;
+        height: 700px;
+    }
+
+    img#idcabo {
+        margin-left: 180px;
+        height: 250px;
+        text-align: center;
+    }
+
     
     footer { 
         text-align: center;
         margin-top: 20px;
         margin-bottom: 40px;
         font: bolder 1.2em Arial;
-        color: white;
+        color: rgb(255, 255, 255);
     }
     
     footer > h3 > a {
@@ -165,5 +198,44 @@ footer > h3#inst {
         color: white;
     }
     
+    .tgrande {
+        display: block;
+    }
+
+    img#tabelacorescabos {
+        margin-top: 20px;
+        margin-bottom: 50px;
+        height: 600px;
+    }
+
+    img#desbalanceada {
+        height: 380px;
+        margin: auto;
+    }
+
+    img#balanceada {
+        height: 350px;
+        margin: auto; 
+    }
+
+    img#cabo18a36 {
+        height: 370px;
+    }
+    
+    img#cabo48a144 {
+        height: 370px;
+    }
+
+    img#imagegbic {
+        height: 300px;
+    }
+
+    img#podeenaopode {
+        height: 400px;
+        margin-top: -30px;
+        width: 600px;
+        margin-bottom: 40px;   
+    }
+
 }
 
